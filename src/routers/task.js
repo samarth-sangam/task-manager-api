@@ -80,7 +80,7 @@ router.patch('/tasks/:id', auth, async (req, res) => {
         const task = await Task.findOne( {_id: req.params.id, owner: req.user._id} )
 
         if(!task) {
-            res.status(404).send()
+            return res.status(404).send()
         }
 
         updates.forEach(update => task[update] = req.body[update])
