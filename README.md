@@ -41,6 +41,8 @@ JWT_SECRET=<Preferred JWT Key>
 
 ```npm run dev``` to run development mode.
 
+## API Documentation
+Find out API documentation at [task-manager-api](https://documenter.getpostman.com/view/10086105/Szt5eWR6)
 ## Running the tests
 
 Step by step guide to run automated tests for this system.
